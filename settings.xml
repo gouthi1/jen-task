@@ -5,14 +5,14 @@
 
   <servers>
     <server>
-      <id>${SNAP-REPO}</id>
-      <username>${NEXUS-USER}</username>
-      <password>${NEXUS-PASS}</password>
+      <id>vereperu-snapshot</id>
+      <username>admin</username>
+      <password>gouthi</password>
     </server>
     <server>
-      <id>${RELEASE-REPO}</id>
-      <username>${NEXUS-USER}</username>
-      <password>${NEXUS-PASS}</password>
+      <id>maven-release</id>
+      <username>admin</username>
+      <password>gouthi</password>
     </server>
         <server>
         <id>${CENTRAL-REPO}</id>
