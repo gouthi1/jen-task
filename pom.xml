@@ -161,10 +161,11 @@
 		</plugin>
         </plugins>
     </build>
-	<repositories>
-    <repository>
-      <id>vereperu-snapshot</id>
+    <repositories>
+      <repository>
+      <id>nexus-repo</id>
+      <name>vereperu-snapshot</name>
       <url>http://3.109.56.224:8081/repository/vereperu-snapshot/</url>
-    </repository>
-  </repositories>
+      </repository>
+    </repositories>
 </project>
